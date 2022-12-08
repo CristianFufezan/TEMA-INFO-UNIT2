@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+th.dotted {border-style:dotted;}
+td.dotted {border-style: dotted;}
+li.solid {border-style: solid;}
+h4.solid {border-style: solid;}
+body {
+  background-color: lightgreen;
+}
+
+h1 {
+  color:Red;
+  text-align: center;
+   font-family: verdana;
+  font-size: 20px;
+}
+h2 {
+  color:Yellow;
+   font-family: verdana;
+  font-size: 20px;
+  
+  }
+
+p {
+  color:Blue;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+h3.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  color:cyan;
+   font-family: verdana;
+  font-size: 20px;
+}
+tr {
+  color:Purple;
+   font-family: verdana;
+  font-size: 20px;
+  
+</style>
+</head>
+<body>
+
+<h1 style="background-color:Tomato;" class="solid">Profil: ETTI</h4>
+<ul>
+<li style="background-color:DodgerBlue;" class="solid">Nume:Fufezan</li>
+<li style="background-color:DodgerBlue;" class="solid">Prenume:Andrei Cristian</li>
+<li style="background-color:DodgerBlue;" class="solid">Contact: fufezancristian49@yahoo.com</li>
+<li style="background-color:DodgerBlue;" class="solid">Placa video:GTX 1650</li>
+<li style="background-color:DodgerBlue;" class="solid">Procesor:Ryzen 7 3750h</li>
+<li style="background-color:DodgerBlue;" class="solid">Placa de baza:FX505DT</li>
+
+<h2>Consum</h2>
+<img id="p" src="CPU.png" width="700" height="400">
+<img id="p" src="TASK.png" width="700" height="400">
+
+<h3 class="round1">Detalii</h3>
+<table style="width:100%">
+  
+    <th class="dotted">Componente</th>
+    <th class="dotted">Consum</th>
+    
+<tr>
+    <td class="dotted">CPU</td>
+    <td class="dotted">26% 2.94 GHz</td>
+  <tr>
+    <td class="dotted">Memory</td>
+    <td class="dotted">7.6% 15.8 GB</td>
+  </tr>
+  <tr>
+  <td class="dotted">Disk</td>
+  <td class="dotted">0%</td>
+   <tr>
+  <td class="dotted">Wi-Fi</td>
+  <td class="dotted">6.8 Mbps</td>
+   <tr>
+  <td class="dotted">GPU</td>
+  <td class="dotted">6% 57°C</td>
+</table>
+
+</body>
+</html>
